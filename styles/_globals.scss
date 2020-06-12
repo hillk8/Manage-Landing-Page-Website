@@ -12,5 +12,13 @@ html {
 body {
     font-size: 16px;
     font-family: 'Be Vietnam', sans-serif;
-    background-color: #008000;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.hide-for-mobile {
+    display: none;
 }
