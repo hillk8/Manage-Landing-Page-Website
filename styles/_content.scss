@@ -38,23 +38,28 @@
     justify-content: center;
     align-items: center;
     padding: 0 1rem;
-    margin-bottom: 0;
+    margin-bottom: 5.75rem;
     // background-color: #9cf3cf;
 }
 
 h1 {
     font-size: 2.5rem;
-    text-indent: 1rem;
     line-height: 1.24;
     margin-bottom: 0.5rem;
+    text-align: center;
 }
 
-.headline p {
+.text-paragraph {
+    font-size: 0.9rem;
     color: #bbbbbb;
-    text-indent: 0.35rem;
-    line-height: 1.8rem;
-    margin-top: 0;
-    margin-bottom: 1.875rem;
+    line-height: 1.75rem;
+    margin: 0 0.9rem;
+    text-align: center;
+}
+
+.headline-text {
+    font-size: 1rem;
+    margin-bottom: 1.8rem;
 }
 
 .button {
@@ -67,6 +72,44 @@ h1 {
     background-color: $brightRed;
     box-shadow: 0px 22px 15px -19px #ff2b00;
 }
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    margin-bottom: 0;
+    // background-color: #9cf3cf;
+}
+
+.main-content h2 {
+    font-size: 1.85rem;
+    line-height: 1.4;
+    margin: 0 0.5rem 0.7rem 0.5rem;
+    text-align: center;
+}
+
+.main-text-h2 {
+    margin-bottom: 3.7rem;
+}
+
+.main-text-h3 {
+    margin: 0 0 3.7rem 0;
+    text-align: left;
+    font-size: 0.86rem;
+}
+
+.main-content h3 {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin: 0 0.5rem 0.7rem 0.5rem;
+    text-align: center;
+}
+
+
+
+
 
 
 
