@@ -29,8 +29,8 @@ ul {
   margin-right: auto;
   margin-left: auto;
   max-width: 1440px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 0.625rem;
+  padding-left: 0.625rem;
 }
 
 .header-container {
@@ -48,5 +48,81 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
+  margin-bottom: 2.6rem;
+}
+
+.logo {
+  margin-top: 2.3rem;
+  margin-left: 0.4rem;
+}
+
+.mobile-nav-button {
+  list-style: none;
+  margin-top: 2rem;
+  margin-right: 0.4rem;
+}
+
+.hero {
+  width: auto;
+  max-width: 46.25rem;
+}
+
+.headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1rem;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-indent: 1rem;
+  line-height: 1.24;
+  margin-bottom: 0.5rem;
+}
+
+.headline p {
+  color: #bbbbbb;
+  text-indent: 0.35rem;
+  line-height: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 1.875rem;
+}
+
+.button {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #dfdfdf;
+  padding: 0.9rem 2.2rem;
+  border-radius: 5rem;
+  border-style: none;
+  background-color: #f25f3a;
+  -webkit-box-shadow: 0px 22px 15px -19px #ff2b00;
+          box-shadow: 0px 22px 15px -19px #ff2b00;
+}
+
+.call-to-action {
+  color: #ffffff;
+  background-color: #f25f3a;
+}
+
+.button-white {
+  font-weight: 700;
+  padding: 0.8rem 2.2rem;
+  border-radius: 5rem;
+  border-style: none;
+  background-color: #ffffff;
+  color: #f25f3a;
 }
 /*# sourceMappingURL=style.css.map */
