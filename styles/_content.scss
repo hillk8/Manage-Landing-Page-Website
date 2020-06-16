@@ -6,6 +6,22 @@
     padding-left:  0.625rem; 
 }
 
+.bg-image {
+    position: absolute;
+    top: -63px;
+    right: -135px;
+    z-index: -1;
+    height: 52%;
+}
+
+.bg-image-content {
+    position: absolute;
+    top: 598px;
+    right: -198px;
+    z-index: -1;
+    height: 37%;
+}
+
 .header-container {
     display: flex;
     flex-flow: row nowrap;
@@ -94,6 +110,24 @@ h1 {
     margin-bottom: 3.7rem;
 }
 
+.main-content h3 {
+    background-color: $paleRed;
+    background: linear-gradient(to right, #ffffff 11%,#ffefeb 21%,#ffefeb 50%,#ffefeb 100%);
+    margin: 0 0.5rem 0.7rem 0.5rem;
+    padding: 8px 0px 11px 17px;
+    width: 100vw;
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.main-content-h3-numbers {
+    background-color: $brightRed;
+    color: #ffffff;
+    border-radius: 5rem;
+    padding: 9px 26px;
+}
+
 .main-text-h3 {
     margin: 0 0 3.7rem 0;
     text-align: left;
@@ -101,10 +135,7 @@ h1 {
 }
 
 .main-content h3 {
-    font-size: 1rem;
-    line-height: 1.4;
-    margin: 0 0.5rem 0.7rem 0.5rem;
-    text-align: center;
+    
 }
 
 .reviews {
