@@ -36,16 +36,16 @@ ul {
 
 .bg-image {
   position: absolute;
-  top: -63px;
-  right: -135px;
+  top: -3.9375rem;
+  right: -8.4375rem;
   z-index: -1;
   height: 52%;
 }
 
 .bg-image-content {
   position: absolute;
-  top: 598px;
-  right: -198px;
+  top: 37.375rem;
+  right: -12.375rem;
   z-index: -1;
   height: 37%;
 }
@@ -125,6 +125,7 @@ h1 {
 .button {
   font-size: 0.75rem;
   font-weight: 700;
+  cursor: pointer;
   color: #dfdfdf;
   padding: 1rem 2.2rem;
   border-radius: 5rem;
@@ -168,7 +169,7 @@ h1 {
   background: -webkit-gradient(linear, left top, right top, color-stop(11%, #ffffff), color-stop(21%, #ffefeb), color-stop(50%, #ffefeb), to(#ffefeb));
   background: linear-gradient(to right, #ffffff 11%, #ffefeb 21%, #ffefeb 50%, #ffefeb 100%);
   margin: 0 0.5rem 0.7rem 0.5rem;
-  padding: 8px 0px 11px 17px;
+  padding: 0.5rem 0 0.6875rem 1.0625rem;
   width: 100vw;
   font-size: 1rem;
   line-height: 1.4;
@@ -179,7 +180,7 @@ h1 {
   background-color: #f25f3a;
   color: #ffffff;
   border-radius: 5rem;
-  padding: 9px 26px;
+  padding: 0.5625rem 1.625rem;
 }
 
 .main-text-h3 {
@@ -258,6 +259,7 @@ h1 {
 
 .button-white {
   font-weight: 700;
+  cursor: pointer;
   padding: 1rem 2.2rem;
   margin-bottom: 5.68rem;
   border-radius: 5rem;
@@ -318,9 +320,13 @@ footer {
   -ms-flex-line-pack: center;
       align-content: center;
   margin-bottom: 1.7rem;
-  color: #9d9d9d;
   width: 100%;
   line-height: 2.2;
+}
+
+.footer-nav ul li a {
+  text-decoration: none;
+  color: #9d9d9d;
 }
 
 .footer-nav-left {
