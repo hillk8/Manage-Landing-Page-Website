@@ -221,6 +221,7 @@ h1 {
 }
 
 .call-to-action-text {
+  color: #f0f0f0;
   font-size: 2.55rem;
   font-weight: 700;
   margin: 5.6rem 1.2rem 1.6rem 1.2rem;
@@ -289,7 +290,7 @@ footer {
   -ms-flex-line-pack: center;
       align-content: center;
   margin-bottom: 1.7rem;
-  color: #ffffff;
+  color: #9d9d9d;
   width: 100%;
   line-height: 2.2;
 }
@@ -334,6 +335,8 @@ footer {
 }
 
 .footer-text {
+  font-size: 0.8rem;
+  color: #797979;
   margin: 3rem 0.9rem 1.5rem 0.9rem;
 }
 /*# sourceMappingURL=style.css.map */
