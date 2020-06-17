@@ -34,8 +34,12 @@ ul {
   padding-left: 0.625rem;
 }
 
+.bg-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
 .bg-image {
-  background-image: url(/images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
   position: absolute;
   top: -3.9375rem;
@@ -43,18 +47,15 @@ ul {
   z-index: 0;
   height: 40%;
   width: 40%;
-  overflow: hidden;
 }
 
 .bg-image-content {
-  background-image: url(/images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
   position: absolute;
   top: 37.375rem;
   right: -12.375rem;
   z-index: -1;
   height: 30%;
-  overflow: hidden;
 }
 
 .header-container {
@@ -234,6 +235,77 @@ h1 {
 
 .reviews-button {
   margin-bottom: 2.4rem;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slider-img {
+  position: relative;
+  width: 100%;
+  -webkit-animation: 20s slider infinite;
+          animation: 20s slider infinite;
+}
+
+@-webkit-keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
 }
 
 .call-to-action {
