@@ -35,7 +35,7 @@ ul {
 }
 
 .bg-image {
-  background: url(/images/bg-tablet-pattern.svg) top right;
+  background-image: url(/images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
   position: absolute;
   top: -3.9375rem;
@@ -47,7 +47,7 @@ ul {
 }
 
 .bg-image-content {
-  background: url(/images/bg-tablet-pattern.svg);
+  background-image: url(/images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
   position: absolute;
   top: 37.375rem;
