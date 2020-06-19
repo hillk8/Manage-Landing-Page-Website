@@ -198,21 +198,9 @@ h1 {
 }
 
 .reviews {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 1rem;
-  margin-bottom: 0;
+  text-align: center;
+  margin-bottom: 8rem;
+  overflow: hidden;
 }
 
 .reviews h2 {
@@ -233,22 +221,75 @@ h1 {
   margin: 0 1.2rem 5rem 1.2rem;
 }
 
+.testimonials__controls {
+  margin-top: 2em;
+}
+
+.testimonials__controls > input[type="radio"] {
+  display: none;
+}
+
+.testimonials__controls > label:nth-of-type(1) {
+  background-color: #f25f3a;
+  -webkit-animation: 25s check linear infinite;
+          animation: 25s check linear infinite;
+}
+
+.testimonials__controls > label:nth-of-type(2) {
+  -webkit-animation: 25s check linear 6s infinite;
+          animation: 25s check linear 6s infinite;
+}
+
+.testimonials__controls > label:nth-of-type(3) {
+  -webkit-animation: 25s check linear 6s infinite;
+          animation: 25s check linear 6s infinite;
+}
+
+.testimonials__controls > label:nth-of-type(4) {
+  -webkit-animation: 25s check linear 6s infinite;
+          animation: 25s check linear 6s infinite;
+}
+
+.testimonials__controls > label {
+  width: 0.75em;
+  height: 0.75em;
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #f25f3a;
+}
+
 .reviews-button {
   margin-bottom: 2.4rem;
+  margin-top: 3.5em;
 }
 
 .slider {
-  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400%;
+  padding-top: 7em;
+  position: relative;
+  left: 0;
+  -webkit-animation: 25s slide linear infinite;
+          animation: 25s slide linear infinite;
 }
 
 .slider-img {
-  position: relative;
-  width: 100%;
-  -webkit-animation: 20s slider infinite;
-          animation: 20s slider infinite;
+  background-color: #fafafa;
+  -webkit-box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.06);
+          box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.06);
+  padding: 2.25em;
+  width: 25%;
+  margin: 0 2em;
 }
 
-@-webkit-keyframes slider {
+.slider-img img {
+  margin-top: -7rem;
+  width: 4.7rem;
+}
+
+@-webkit-keyframes slide {
   0% {
     left: 0;
   }
@@ -273,12 +314,9 @@ h1 {
   95% {
     left: -300%;
   }
-  100% {
-    left: -400%;
-  }
 }
 
-@keyframes slider {
+@keyframes slide {
   0% {
     left: 0;
   }
@@ -302,9 +340,6 @@ h1 {
   }
   95% {
     left: -300%;
-  }
-  100% {
-    left: -400%;
   }
 }
 
