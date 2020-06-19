@@ -1,28 +1,10 @@
-// .bg-image-container {
-//     position: relative;
-//     overflow: hidden;
-// }
-
-// .bg-image {
-//     // background-image: url(/images/bg-tablet-pattern.svg);
-//     background-repeat: no-repeat;
-//     position: absolute;
-//     top: -3.9375rem;
-//     right: -8.4375rem;
-//     z-index: 0;
-//     height: 40%;
-//     width: 40%;
-// }
-
-// .bg-image-content {
-//     // background-image: url(/images/bg-tablet-pattern.svg);
-//     background-repeat: no-repeat;
-//     position: absolute;
-//     top: 37.375rem;
-//     right: -12.375rem;
-//     z-index: -1;
-//     height: 30%;
-// }
+body {
+    background-image: url("/images/bg-tablet-pattern.svg");
+    background-size: 122%;
+    background-repeat: no-repeat;
+    background-position: 11vw -28vw;
+    line-height: 1.6;
+}
 
 .container {
     margin-right: auto;
@@ -61,8 +43,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 1rem;
-    margin-bottom: 5.75rem;
+    padding: 0 1rem 6.5rem 1rem;
+    margin-bottom: -0.25rem;
+    background-image: url("/images/bg-tablet-pattern.svg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 64vw 21vw;
+    line-height: 1.6;
 }
 
 h1 {
