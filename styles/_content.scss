@@ -1,3 +1,29 @@
+// .bg-image-container {
+//     position: relative;
+//     overflow: hidden;
+// }
+
+// .bg-image {
+//     // background-image: url(/images/bg-tablet-pattern.svg);
+//     background-repeat: no-repeat;
+//     position: absolute;
+//     top: -3.9375rem;
+//     right: -8.4375rem;
+//     z-index: 0;
+//     height: 40%;
+//     width: 40%;
+// }
+
+// .bg-image-content {
+//     // background-image: url(/images/bg-tablet-pattern.svg);
+//     background-repeat: no-repeat;
+//     position: absolute;
+//     top: 37.375rem;
+//     right: -12.375rem;
+//     z-index: -1;
+//     height: 30%;
+// }
+
 .container {
     margin-right: auto;
     margin-left:  auto;
@@ -6,39 +32,12 @@
     padding-left:  0.625rem; 
 }
 
-.bg-image-container {
-    position: relative;
-    overflow: hidden;
-}
-
-.bg-image {
-    // background-image: url(/images/bg-tablet-pattern.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    top: -3.9375rem;
-    right: -8.4375rem;
-    z-index: 0;
-    height: 40%;
-    width: 40%;
-}
-
-.bg-image-content {
-    // background-image: url(/images/bg-tablet-pattern.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 37.375rem;
-    right: -12.375rem;
-    z-index: -1;
-    height: 30%;
-}
-
 .header-container {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    margin-bottom: 2.6rem;
 }
 
 .logo {
@@ -55,7 +54,6 @@
 .hero {
     width: auto;
     max-width: 46.25rem;
-    // background-color: #f7c87e;
 }
 
 .headline {
@@ -65,12 +63,12 @@
     align-items: center;
     padding: 0 1rem;
     margin-bottom: 5.75rem;
-    // background-color: #9cf3cf;
 }
 
 h1 {
     font-size: 2.5rem;
     line-height: 1.24;
+    margin-top: 0;
     margin-bottom: 0.5rem;
     text-align: center;
 }
@@ -107,7 +105,6 @@ h1 {
     align-items: center;
     padding: 0 1rem;
     margin-bottom: 0;
-    // background-color: #9cf3cf;
 }
 
 .main-content h2 {
@@ -140,37 +137,57 @@ h1 {
 }
 
 .main-text-h3 {
-    margin: 0 0 3.7rem 0;
+    margin: 0 0 3rem 0;
     text-align: left;
     font-size: 0.86rem;
 }
 
 .reviews {
     text-align: center;
-    margin-bottom: 8rem;
     overflow: hidden;
 }
 
 .reviews h2 {
     font-size: 2.1rem;
     font-weight: 700;
-    margin: 0 0 3.8rem 0;
+    margin: 1rem 0 3.8rem 0;
 }
 
-.reviews-img {
-    padding: 0;
+.slider {
+    display: flex;
+    width: 400%;
+    padding-top: 1.1rem;
+    position: relative;
+    left: 0;
+    animation: 25s slide linear infinite;
 }
+
+.slider-img {
+    background-color: #fafafa;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.06);
+    padding: 2.25rem;
+    width: 25%;
+}
+
+.slider-img img {
+    margin-top: -7rem;
+    width: 4.7rem;
+}
+
+// .reviews-img {
+//     padding: 0;
+// }
 
 .reviews-name {
     font-weight: 700;
 }
 
 .reviews-text {
-    margin: 0 1.2rem 5rem 1.2rem;
+    margin: 0 0rem 0rem 0rem;
 }
 
 .testimonials__controls {
-    margin-top: 2em;
+    margin-top: 2rem;
 }
 
 .testimonials__controls > input[type="radio"] {
@@ -195,8 +212,8 @@ h1 {
 }
 
 .testimonials__controls > label {
-    width: 0.75em;
-    height: 0.75em;
+    width: 0.5rem;
+    height: 0.5rem;
     display: inline-block;
     border-radius: 50%;
     border: 1px solid #f25f3a;
@@ -204,29 +221,7 @@ h1 {
 
 .reviews-button {
     margin-bottom: 2.4rem;
-    margin-top: 3.5em;
-}
-
-.slider {
-    display: flex;
-width: 400%;
-padding-top: 7em;
-position: relative;
-left: 0;
-animation: 25s slide linear infinite;
-}
-
-.slider-img {
-    background-color: #fafafa;
-    box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.06);
-    padding: 2.25em;
-    width: 25%;
-    margin: 0 2em;
-}
-
-.slider-img img {
-    margin-top: -7rem;
-    width: 4.7rem;
+    margin-top: 2.2rem;
 }
 
 @keyframes slide {
