@@ -161,9 +161,9 @@ h1 {
   background: -webkit-gradient(linear, left top, right top, color-stop(11%, #ffffff), color-stop(21%, #ffefeb), color-stop(50%, #ffefeb), to(#ffefeb));
   background: linear-gradient(to right, #ffffff 11%, #ffefeb 21%, #ffefeb 50%, #ffefeb 100%);
   margin: 0 0.5rem 0.7rem 0.5rem;
-  padding: 0.5rem 0 0.6875rem 1.0625rem;
+  padding: 0.5rem 1.0625rem 0.6875rem 1.0625rem;
   width: 100vw;
-  font-size: 1rem;
+  font-size: 0.87rem;
   line-height: 1.4;
   text-align: justify;
 }
@@ -173,6 +173,7 @@ h1 {
   color: #ffffff;
   border-radius: 5rem;
   padding: 0.5625rem 1.625rem;
+  margin-left: -0.5rem;
 }
 
 .main-text-h3 {
@@ -391,6 +392,7 @@ footer {
   padding: 0.8rem 3.8rem 0.8rem 1.4rem;
   border-radius: 5rem;
   border-style: none;
+  max-width: 60vw;
 }
 
 .input-button {
