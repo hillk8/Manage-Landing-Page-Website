@@ -27,10 +27,10 @@ ul {
 }
 
 body {
-  background-image: url("../images/bg-tablet-pattern.svg");
-  background-size: 122%;
+  background-image: url("../images/bg-tablet-pattern.svg"), url("../images/bg-tablet-pattern.svg");
+  background-size: 122%, 90%;
   background-repeat: no-repeat;
-  background-position: 11vw -28vw;
+  background-position: 11vw -28vw, 64vw 141vw;
   line-height: 1.6;
 }
 
@@ -91,11 +91,6 @@ body {
           align-items: center;
   padding: 0 1rem 6.5rem 1rem;
   margin-bottom: -0.25rem;
-  background-image: url("../images/bg-tablet-pattern.svg");
-  background-size: 90%;
-  background-repeat: no-repeat;
-  background-position: 64vw 21vw;
-  line-height: 1.6;
 }
 
 h1 {
