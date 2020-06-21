@@ -1,9 +1,15 @@
-body {
-    background-image: url("../images/bg-tablet-pattern.svg"), url("../images/bg-tablet-pattern.svg");
-    background-size: 122%, 90%;
-    background-repeat: no-repeat;
-    background-position: 11vw -28vw, 64vw 141vw;
-    line-height: 1.6;
+.bg-container {
+    background-image: url("../images/bg-tablet-pattern.svg"),
+    url("../images/bg-tablet-pattern.svg");
+
+  background-repeat: no-repeat, no-repeat;
+  background-size: 500px 500px, 400px 400px;
+  background-position: top -134px right -149px, top 461px right -275px;
+
+  @media (min-width: 800px) {
+    background-size: 800px 800px, 600px 600px;
+    background-position: top -200px right -200px, top 1200px left -300px;
+  }
 }
 
 .container {
