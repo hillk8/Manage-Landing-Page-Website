@@ -47,7 +47,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding: 0 1rem 6.5rem 1rem;
     margin-bottom: -0.25rem;
 }
@@ -57,15 +56,14 @@ h1 {
     line-height: 1.24;
     margin-top: 0;
     margin-bottom: 0.5rem;
-    text-align: center;
 }
 
 .text-paragraph {
     @include fluid-type(font-size, 318px, 1200px, 14.3833px, 24.4px);
     color: #bbbbbb;
     line-height: 1.75rem;
-    margin: 0 0.9rem;
-    text-align: center;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
 }
 
 .headline-text {
@@ -105,12 +103,12 @@ h1 {
     margin-bottom: 3.7rem;
 }
 
-.main-content h3 {
+.main-content-list h3 {
     background-color: $paleRed;
-    background: linear-gradient(to right, #ffffff 11%,#ffefeb 21%,#ffefeb 50%,#ffefeb 100%);
+    background: linear-gradient(to right, #fff 3%, #ffefeb 10%, #ffefeb 90%, #ffefeb 50%);
     margin: 0 0.5rem 0.7rem 0.5rem;
     padding: 0.5rem 1.0625rem 0.6875rem 1.0625rem;
-    width: 100vw;
+    width: 100%;
     @include fluid-type(font-size, 318px, 1200px, 13.9167px, 24.4px);
     line-height: 1.4;
     text-align: justify;
@@ -125,7 +123,7 @@ h1 {
 }
 
 .main-text-h3 {
-    margin: 0 0 3rem 0;
+    margin: 0 1.2rem 3rem 1.2rem;
     text-align: left;
     @include fluid-type(font-size, 318px, 1200px, 13.7667px, 24.4px);
 }
