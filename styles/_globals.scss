@@ -28,6 +28,7 @@ ul {
 //     display: none;
 // }
 
+//MOBILE
 @media screen and (max-width: 1089px) {
     .hero-headline-container-mobile {
         display: flex;
@@ -52,8 +53,32 @@ ul {
     .text-paragraph {
         text-align: center;
     }
+
+    .main-content {
+        margin-top: 0;
+    }
+
+    .main-content-container-mobile {
+        margin: 0;
+    }
+
+    .main-content-list h3 {
+        background-color: $paleRed;
+        background: linear-gradient(to right, #fff 3%, #ffefeb 10%, #ffefeb 90%, #ffefeb 50%);
+    }
+
+    .main-content h2 {
+        line-height: 1.4;
+        margin: 0 1.2rem 0.7rem 1.2rem;
+        text-align: center;
+    }
+
+    .main-text-h3 {
+        margin: 0 1.2rem 3rem 1.2rem;
+    }
 }
 
+//DESKTOP
 @media screen and (min-width: 1090px){
 
     .hero-headline-container-desktop {
@@ -61,7 +86,7 @@ ul {
         flex-direction: row-reverse;
         justify-content: center;
         align-items: flex-start;
-        margin: 0 9.4375rem;
+        margin: 0 9.4375rem 8rem 9.4375rem;
     }
 
     .hero {
@@ -92,11 +117,12 @@ ul {
         text-align: none;
     }
 
-    .main-content-container {
+    .main-content-container-desktop {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        margin: 0 9.4375rem;
     }
 
     .main-content {
@@ -105,6 +131,7 @@ ul {
         justify-content: center;
         align-items: center;
         padding: 0 1rem;
+        margin-top: -19.2rem;
         margin-bottom: 0;
         flex: 1;
     }
@@ -115,5 +142,27 @@ ul {
 
     .main-content-list h3 {
         text-align: left;
+        background-color: #ffffff;
+    }
+
+    .main-content h2 {
+        line-height: 1.1;
+        margin: 0 0rem 0.5rem 0rem;
+        text-align: left;
+    }
+
+    .main-text-h2 {
+        font-size: 18.0833px;
+        margin-right: 9rem;
+        text-align: left;
+    }
+
+    .main-text-h3 {
+        margin: 0 -1.8rem 3rem -0.8rem;
+        padding-left: 9.2rem;
+    }
+
+    .main-content-h3-numbers {
+        margin-right: 2rem;
     }
 }
