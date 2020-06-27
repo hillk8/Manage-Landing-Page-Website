@@ -76,6 +76,26 @@ ul {
     .main-text-h3 {
         margin: 0 1.2rem 3rem 1.2rem;
     }
+
+    .slider-img {
+        margin: 0;
+    }
+
+    .call-to-action {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .call-to-action-text {
+        margin: 5.6rem 1.2rem 1.6rem 1.2rem;
+    }
+
+    .button-white {
+        margin-bottom: 5.68rem;
+    }
+    
 }
 
 //DESKTOP
@@ -122,7 +142,7 @@ ul {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin: 0 9.4375rem;
+        margin: 0 9.4375rem 5rem 9.4375rem;
     }
 
     .main-content {
@@ -164,5 +184,25 @@ ul {
 
     .main-content-h3-numbers {
         margin-right: 2rem;
+    }
+
+    .slider-img {
+        margin: 0 28rem;
+    }
+
+    .call-to-action {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+        padding: 4rem 0;
+    }
+
+    .call-to-action-text {
+        margin: 1.2rem 1.2rem 1.6rem 1.2rem;
+    }
+
+    .button-white {
+        margin-bottom: 0;
     }
 }

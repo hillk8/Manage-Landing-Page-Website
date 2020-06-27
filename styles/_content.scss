@@ -26,6 +26,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    margin: 0 0 3rem 0;
 }
 
 .logo {
@@ -232,11 +233,8 @@ h1 {
 }
 
 .call-to-action {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
     align-items: center;
-    text-align: center;
     margin-bottom: 0;
     color: #ffffff;
     background-color: $brightRed;
@@ -246,7 +244,6 @@ h1 {
     color: #f0f0f0;
     font-size: 2.55rem;
     font-weight: 700;
-    margin: 5.6rem 1.2rem 1.6rem 1.2rem;
     line-height: 1.23;
 }
 
@@ -254,7 +251,6 @@ h1 {
     font-weight: 700;
     cursor: pointer;
     padding: 1rem 2.2rem;
-    margin-bottom: 5.68rem;
     border-radius: 5rem;
     border-style: none;
     background-color: #ffffff;

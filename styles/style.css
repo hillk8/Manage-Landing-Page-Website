@@ -76,6 +76,28 @@ ul {
   .main-text-h3 {
     margin: 0 1.2rem 3rem 1.2rem;
   }
+  .slider-img {
+    margin: 0;
+  }
+  .call-to-action {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .call-to-action-text {
+    margin: 5.6rem 1.2rem 1.6rem 1.2rem;
+  }
+  .button-white {
+    margin-bottom: 5.68rem;
+  }
 }
 
 @media screen and (min-width: 1090px) {
@@ -145,7 +167,7 @@ ul {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 0 9.4375rem;
+    margin: 0 9.4375rem 5rem 9.4375rem;
   }
   .main-content {
     display: -webkit-box;
@@ -194,6 +216,28 @@ ul {
   .main-content-h3-numbers {
     margin-right: 2rem;
   }
+  .slider-img {
+    margin: 0 28rem;
+  }
+  .call-to-action {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: left;
+    padding: 4rem 0;
+  }
+  .call-to-action-text {
+    margin: 1.2rem 1.2rem 1.6rem 1.2rem;
+  }
+  .button-white {
+    margin-bottom: 0;
+  }
 }
 
 .bg-container {
@@ -233,6 +277,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
+  margin: 0 0 3rem 0;
 }
 
 .logo {
@@ -570,20 +615,9 @@ h1 {
 }
 
 .call-to-action {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
   margin-bottom: 0;
   color: #ffffff;
   background-color: #f25f3a;
@@ -593,7 +627,6 @@ h1 {
   color: #f0f0f0;
   font-size: 2.55rem;
   font-weight: 700;
-  margin: 5.6rem 1.2rem 1.6rem 1.2rem;
   line-height: 1.23;
 }
 
@@ -601,7 +634,6 @@ h1 {
   font-weight: 700;
   cursor: pointer;
   padding: 1rem 2.2rem;
-  margin-bottom: 5.68rem;
   border-radius: 5rem;
   border-style: none;
   background-color: #ffffff;
