@@ -30,6 +30,57 @@ ul {
 
 //MOBILE
 @media screen and (max-width: 1089px) {
+    .nav-links {
+        border-radius: 0.4rem;
+        position: absolute;
+        padding: 1.625rem 0;
+        top: 8vh;
+        right: 1.375rem;
+        height: 30vh;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateY(-30rem);
+        transition: transform 0.4s ease-in;
+    }
+    .nav-links li {
+        opacity: 0;
+    }
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+    
+    .nav-active {
+        transform: translateX(0%);
+        box-shadow: 6px 112px 146px 140px rgba(0,0,0,0.49);
+    }
+    
+    @keyframes navLinkFade {
+      from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+    
+    .toggle .line1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+      transition: transform 0.4s ease-in;
+    }
+    .toggle .line2 {
+      opacity: 0;
+    }
+    .toggle .line3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+      transition: transform 0.4s ease-in;
+    }
+
     .hero-headline-container-mobile {
         display: flex;
         flex-direction: column;
