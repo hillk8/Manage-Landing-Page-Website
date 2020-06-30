@@ -25,10 +25,6 @@
     margin: 0 0 3rem 0;
 }
 
-.nav-links li {
-    list-style: none;
-}
-
 .hero {
     @include fluid-type(width, 318px, 1200px, 311px, 740px);
 }
@@ -93,7 +89,6 @@ h1 {
     
     margin: 0 0.5rem 0.7rem 0.5rem;
     padding: 0.5rem 1.0625rem 0.6875rem 1.0625rem;
-    width: 100%;
     @include fluid-type(font-size, 318px, 1200px, 13.9167px, 20.4px);
     line-height: 1.4;
     text-align: justify;
@@ -209,7 +204,7 @@ h1 {
     padding: 1rem 2.2rem;
     border-radius: 5rem;
     border-style: none;
-    background-color: #ffffff;
+    background-color: #f0f0f0;
     color: $brightRed;
 }
 
