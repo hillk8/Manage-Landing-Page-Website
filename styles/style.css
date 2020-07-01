@@ -223,7 +223,7 @@ ul {
     margin: 0;
   }
   .main-content-list h3 {
-    background-color: #ffefeb;
+    background-color: #f99076;
     background: -webkit-gradient(linear, left top, right top, color-stop(3%, #fff), color-stop(10%, #ffefeb), color-stop(90%, #ffefeb), color-stop(50%, #ffefeb));
     background: linear-gradient(to right, #fff 3%, #ffefeb 10%, #ffefeb 90%, #ffefeb 50%);
     width: 100%;
@@ -812,6 +812,10 @@ ul {
   margin: 0 0 3rem 0;
 }
 
+.nav-links a:hover {
+  color: #a1a1a9;
+}
+
 .hero {
   width: 311px;
 }
@@ -897,6 +901,10 @@ h1 {
   background-color: #f25f3a;
   -webkit-box-shadow: 0px 22px 15px -19px #ff2b00;
           box-shadow: 0px 22px 15px -19px #ff2b00;
+}
+
+.button:hover {
+  background-color: #f99076;
 }
 
 .main-content {
@@ -1123,6 +1131,10 @@ h1 {
   color: #f25f3a;
 }
 
+.button-white:hover {
+  color: #fbafac;
+}
+
 footer {
   margin-bottom: 0;
   background-color: #1d1e25;
@@ -1169,6 +1181,10 @@ footer {
   color: #9d9d9d;
 }
 
+.footer-nav ul li a:hover {
+  color: #b56357;
+}
+
 .footer-nav-left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1204,6 +1220,26 @@ footer {
   color: #ffffff;
   background-color: #1d1e25;
   background-size: 1rem 1rem;
+}
+
+#social-btn-fb:hover path {
+  fill: #f95f3b;
+}
+
+#social-btn-yt:hover path {
+  fill: #f95f3b;
+}
+
+#social-btn-tw:hover path {
+  fill: #f95f3b;
+}
+
+#social-btn-pt:hover path {
+  fill: #f95f3b;
+}
+
+#social-btn-ig:hover path {
+  fill: #f95f3b;
 }
 
 .footer-text {
