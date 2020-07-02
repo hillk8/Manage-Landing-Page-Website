@@ -445,6 +445,17 @@ ul {
         justify-content: space-around;
         align-items: center;
         padding: 48px 64px;
+        
+
+        margin: -9px 0 24rem 0;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+        position: fixed;
+        padding-bottom: 3rem;
+        overflow: hidden;
+        right: 0px;
+        box-shadow: 0px 4px 18px -10px rgba(0,0,0,0.40);
     }
 
     nav {
@@ -453,11 +464,15 @@ ul {
         align-items: center;
         min-height: 8vh;
         font-family: 'Open', sans-serif;
+        z-index: 1;
+        position: fixed;
     }
 
     .logo {
         margin-top: 1.1rem;
-        margin-left: 0.4rem
+        margin-left: -1.6rem;
+        position: fixed;
+        left: 194px;
     }
 
     .nav-links {
@@ -481,6 +496,11 @@ ul {
         padding-right: 1.5rem;
     }
 
+    .button-fixed {
+        position: fixed;
+        right: 168px;
+    }
+
     .hero-headline-container-desktop {
         display: flex;
         flex-direction: row-reverse;
@@ -491,6 +511,7 @@ ul {
 
     .hero {
         flex: 1;
+        margin-top: 6rem;
     }
 
     .headline {
@@ -500,7 +521,7 @@ ul {
         align-items: flex-start;
         padding: 0 1rem 6.5rem 1rem;
         margin-bottom: -0.25rem;
-        margin-top: 5.5rem;
+        margin-top: 10rem;
         flex: 1;
     }
 
