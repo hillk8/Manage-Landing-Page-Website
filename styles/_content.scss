@@ -1,10 +1,9 @@
 .bg-container {
     background-image: url("../images/bg-tablet-pattern.svg"),
     url("../images/bg-tablet-pattern.svg");
-
-  background-repeat: no-repeat, no-repeat;
-  background-size: 500px 500px, 400px 400px;
-  background-position: top -134px right -149px, top 461px right -275px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 500px 500px, 400px 400px;
+    background-position: top -134px right -149px, top 461px right -275px;
 
   @media (min-width: 800px) {
     background-size: 800px 800px, 600px 600px;
@@ -93,7 +92,6 @@ h1 {
 }
 
 .main-content-list h3 {
-    
     margin: 0 0.5rem 0.7rem 0.5rem;
     padding: 0.5rem 1.0625rem 0.6875rem 1.0625rem;
     @include fluid-type(font-size, 318px, 1200px, 13.9167px, 20.4px);
@@ -145,10 +143,6 @@ h1 {
     margin-top: -7rem;
     width: 4.7rem;
 }
-
-// .reviews-img {
-//     padding: 0;
-// }
 
 .reviews-name {
     font-weight: 700;
@@ -285,23 +279,23 @@ footer {
 }
 
 #social-btn-fb:hover path {
-    fill: #f95f3b;
+    fill: $socialBtnHover;
 }
 
 #social-btn-yt:hover path {
-    fill: #f95f3b;
+    fill: $socialBtnHover;
 }
 
 #social-btn-tw:hover path {
-    fill: #f95f3b;
+    fill: $socialBtnHover;
 }
 
 #social-btn-pt:hover path {
-    fill: #f95f3b;
+    fill: $socialBtnHover;
 }
 
 #social-btn-ig:hover path {
-    fill: #f95f3b;
+    fill: $socialBtnHover;
 }
 
 .footer-text {
