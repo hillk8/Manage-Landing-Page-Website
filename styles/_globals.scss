@@ -282,6 +282,15 @@ ul {
         padding-right: 1.5rem;
     }
 
+    .headline-aboutUs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -2rem;
+        margin-bottom: 3rem;
+    }
+
     .hero-headline-container-desktop {
         display: flex;
         flex-direction: row-reverse;
@@ -307,6 +316,10 @@ ul {
 
     h1 {
         text-align: left;
+    }
+
+    .headline h2 {
+        font-size: 2.2rem;
     }
 
     .headline-text {
@@ -510,16 +523,17 @@ ul {
 
     .headline-aboutUs {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         margin-top: 6rem;
+        margin-bottom: -5rem;;
         padding-top: 3rem;
     }
 
     .hero {
         flex: 1;
-        margin-top: 6rem;
+        margin-top: 9.2rem;
     }
 
     .headline {
