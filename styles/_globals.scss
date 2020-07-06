@@ -172,7 +172,7 @@ ul {
         font-size: 0.75rem;
         font-weight: 700;
         cursor: pointer;
-        color: #dfdfdf;
+        color: #ffffff;
         padding: 1rem 2.2rem;
         margin-top: 1.5rem;
         border-radius: 5rem;
@@ -412,7 +412,7 @@ ul {
 
     .main-text-h2 {
         font-size: 18.0833px;
-        margin-right: 9rem;
+        // margin-right: 9rem;
         text-align: left;
     }
 
@@ -625,7 +625,7 @@ ul {
         font-size: 0.75rem;
         font-weight: 700;
         cursor: pointer;
-        color: #dfdfdf;
+        color: #ffffff;
         padding: 1rem 2.2rem;
         margin-top: 1.5rem;
         border-radius: 5rem;
@@ -661,7 +661,7 @@ ul {
         justify-content: center;
         align-items: center;
         padding: 0 1rem;
-        margin-top: -19.2rem;
+        margin-top: -3rem; //-19.2rem old value
         margin-bottom: 0;
         flex: 1;
     }
@@ -739,6 +739,42 @@ ul {
 
     .slider-img {
         margin: 0 28rem;
+    }
+
+    .locations {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-image: url(/images/world-map.svg);
+        margin: 0 9.4375rem 3rem 9.4375rem;
+        height: 500px;
+        width: auto;
+        line-height: 2.2;
+        background-repeat: no-repeat;
+        background-position-x: 60%;
+    }
+
+    .locations-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .locations-header {
+        font-size: 2.5rem;
+        color: #444444;
+        font-weight: 700;
+    }
+
+    .locations-links {
+        text-decoration: none;
+        color: #9d9d9d;
+        font-size: 1.3rem;
+    
+        &:hover {
+            color: #F25F3A;
+        }
     }
 
     .call-to-action {
