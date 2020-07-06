@@ -201,6 +201,11 @@ ul {
         -ms-flex-align: center;
             align-items: center;
   }
+  .about-headline {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .headline {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -208,6 +213,27 @@ ul {
   }
   h1 {
     text-align: center;
+  }
+  .about-headline-text {
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 1.8rem;
+  }
+  .about-button {
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: #dfdfdf;
+    padding: 1rem 2.2rem;
+    margin-top: 1.5rem;
+    border-radius: 5rem;
+    border-style: none;
+    background-color: #f25f3a;
+    -webkit-box-shadow: 0px 22px 15px -19px #ff2b00;
+            box-shadow: 0px 22px 15px -19px #ff2b00;
+  }
+  .about-button:hover {
+    background-color: #f99076;
   }
   .headline-text {
     text-align: center;
@@ -383,6 +409,27 @@ ul {
         -ms-flex: 1;
             flex: 1;
   }
+  .about-headline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0 1rem 6.5rem 1rem;
+    margin-bottom: -0.25rem;
+    margin-top: 1.2rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
   .headline {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -409,6 +456,11 @@ ul {
   }
   .headline h2 {
     font-size: 2.2rem;
+  }
+  .about-headline-text {
+    text-align: left;
+    margin-right: 9rem;
+    margin-bottom: 1.8rem;
   }
   .headline-text {
     text-align: left;
@@ -667,11 +719,54 @@ ul {
     margin-bottom: -5rem;
     padding-top: 3rem;
   }
+  .about-hero {
+    width: 311px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-top: 7.2rem;
+  }
+}
+
+@media screen and (min-width: 1262px) and (min-width: 318px) {
+  .about-hero {
+    width: calc(311px + 429 * (100vw - 318px) / 882);
+  }
+}
+
+@media screen and (min-width: 1262px) and (min-width: 1200px) {
+  .about-hero {
+    width: 740px;
+  }
+}
+
+@media screen and (min-width: 1262px) {
   .hero {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
     margin-top: 9.2rem;
+  }
+  .about-headline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0 1rem 6.5rem 1rem;
+    margin-bottom: -0.25rem;
+    margin-top: 6rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
   .headline {
     display: -webkit-box;
@@ -689,7 +784,7 @@ ul {
             align-items: flex-start;
     padding: 0 1rem 6.5rem 1rem;
     margin-bottom: -0.25rem;
-    margin-top: 10rem;
+    margin-top: 14rem;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
@@ -699,6 +794,26 @@ ul {
   }
   h1 {
     text-align: left;
+  }
+  .about-headline-text {
+    text-align: left;
+    margin-bottom: 1.8rem;
+  }
+  .about-button {
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: #dfdfdf;
+    padding: 1rem 2.2rem;
+    margin-top: 1.5rem;
+    border-radius: 5rem;
+    border-style: none;
+    background-color: #f25f3a;
+    -webkit-box-shadow: 0px 22px 15px -19px #ff2b00;
+            box-shadow: 0px 22px 15px -19px #ff2b00;
+  }
+  .about-button:hover {
+    background-color: #f99076;
   }
   .headline-text {
     text-align: left;
@@ -744,6 +859,46 @@ ul {
         -ms-flex: 1;
             flex: 1;
   }
+  .about-content-container-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: -9.6rem 9.4375rem 5rem 9.4375rem;
+  }
+  .about-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 1rem;
+    margin-bottom: 0;
+    margin-left: 8rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .about-content h2 {
+    font-size: 2.5rem;
+  }
   .main-content-list {
     -webkit-box-flex: 1;
         -ms-flex: 1;
@@ -764,6 +919,53 @@ ul {
     margin-right: 9rem;
     text-align: left;
   }
+  .about-text-h2 {
+    font-size: 14.3833px;
+    color: #bbbbbb;
+    line-height: 1.75rem;
+    font-size: 18.0833px;
+    text-align: none;
+    margin-right: 0;
+    margin-top: 0.9rem;
+    margin-bottom: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1262px) and (min-width: 318px) {
+  .about-text-h2 {
+    font-size: calc(14.3833px + 4.7 * (100vw - 318px) / 882);
+  }
+}
+
+@media screen and (min-width: 1262px) and (min-width: 1200px) {
+  .about-text-h2 {
+    font-size: 19.0833px;
+  }
+}
+
+@media screen and (min-width: 1262px) {
+  .about-graph-img {
+    width: 311px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-top: 8rem;
+  }
+}
+
+@media screen and (min-width: 1262px) and (min-width: 318px) {
+  .about-graph-img {
+    width: calc(311px + 429 * (100vw - 318px) / 882);
+  }
+}
+
+@media screen and (min-width: 1262px) and (min-width: 1200px) {
+  .about-graph-img {
+    width: 740px;
+  }
+}
+
+@media screen and (min-width: 1262px) {
   .main-text-h3 {
     margin: 0 -1.8rem 3rem -0.8rem;
     padding-left: 9.2rem;
@@ -890,6 +1092,25 @@ ul {
   .hero {
     width: 740px;
   }
+}
+
+.about-headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 1rem 6.5rem 1rem;
+  margin-bottom: -0.25rem;
+}
+
+.about-headline h2 {
+  font-size: 2.5rem;
 }
 
 .headline {
