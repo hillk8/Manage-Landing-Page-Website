@@ -989,13 +989,14 @@ ul {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-image: url(/images/world-map.svg);
+    background-image: url(/images/world-image.png);
     margin: 0 9.4375rem 3rem 9.4375rem;
-    height: 500px;
+    height: 600px;
     width: auto;
     line-height: 2.2;
     background-repeat: no-repeat;
-    background-position-x: 60%;
+    background-position-y: 60%;
+    background-size: 100%;
   }
   .locations-list {
     display: -webkit-box;
@@ -1011,12 +1012,12 @@ ul {
   }
   .locations-header {
     font-size: 2.5rem;
-    color: #444444;
+    color: #5b5b5b;
     font-weight: 700;
   }
   .locations-links {
     text-decoration: none;
-    color: #9d9d9d;
+    color: #a6a6a6;
     font-size: 1.3rem;
   }
   .locations-links:hover {
