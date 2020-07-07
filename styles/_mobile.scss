@@ -195,10 +195,11 @@
 
     .locations {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
         align-items: center;
-        margin-bottom: 2rem;
+        margin: 0 2.3rem 2rem 2.3rem;
     }
 
     .locations-list {
@@ -206,6 +207,7 @@
         flex-direction: column;
         text-align: center;
         padding-left: 0;
+        margin: 1rem 2rem;
     }
 
     .locations-header {
