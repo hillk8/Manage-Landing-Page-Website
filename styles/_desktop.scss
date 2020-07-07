@@ -278,14 +278,41 @@
         font-weight: 700;
     }
 
+    span {
+        position: absolute;
+        margin-left: 7px;
+        border-radius: 6px;
+        height: 120px;
+        width: 140px;
+        color: #ffffff;
+        background-color: #3b3b3b;
+        display: none;
+        z-index: 1;
+    }
+
     .locations-links {
         text-decoration: none;
         color: #a6a6a6;
         font-size: 1.3rem;
     
         &:hover {
+            font-weight: 500;
             color: #F25F3A;
         }
+
+    }
+
+    .locations-links:hover span {
+        color: #ffffff;
+        font-size: 1rem;
+        line-height: 0.8;
+        height: auto;
+        width: auto;
+        text-align: left;
+        padding: 0 10px 10px 10px;
+        letter-spacing: 0;
+        font-weight: 400;
+        display: inline-block;
     }
 
     .call-to-action {
