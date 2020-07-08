@@ -793,7 +793,8 @@ footer {
   }
   span {
     position: absolute;
-    margin-left: 7px;
+    margin-top: 40px;
+    margin-left: -202px;
     border-radius: 6px;
     height: 120px;
     width: 140px;
