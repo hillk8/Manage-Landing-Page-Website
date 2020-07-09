@@ -5,6 +5,10 @@
         display: none;
     }
 
+    .about-bg-container {
+        background-position: top 550px right -400px, top 300px left -300px;
+    }
+
     .header-container {
         display: flex;
         flex-flow: row nowrap;
