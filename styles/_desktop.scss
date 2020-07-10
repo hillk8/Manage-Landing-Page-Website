@@ -88,6 +88,16 @@
         padding-top: 3rem;
     }
 
+    .headline-pricing {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5.5rem;
+        margin-bottom: 0rem;;
+        padding-top: 3rem;
+    }
+
     .about-hero {
         @include fluid-type(width, 318px, 1200px, 311px, 740px);
         flex: 1;
@@ -121,17 +131,6 @@
         border-radius: 0.6rem;
         box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.3);
         background-color: #ffffff;
-    }
-
-    .about-headline {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 0 1rem 6.5rem 1rem;
-        margin-bottom: -0.25rem;
-        margin-top: 6rem;
-        flex: 1;
     }
 
     .form-field-name {
@@ -188,6 +187,17 @@
 
     h1 {
         text-align: left;
+    }
+
+    .about-headline {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 1rem 6.5rem 1rem;
+        margin-bottom: -0.25rem;
+        margin-top: 6rem;
+        flex: 1;
     }
 
     .about-headline-text {
