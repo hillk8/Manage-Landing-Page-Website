@@ -220,7 +220,8 @@
     }
 
     .about-headline h2 {
-        font-size: 2rem;;
+        align-items: center;
+        font-size: 2rem;
     }
 
     .headline {
@@ -257,6 +258,10 @@
         &:hover {
             background-color: $paleRed;
         }
+    }
+
+    .pricing-graph-img {
+        display: none;
     }
 
     .about-content-container-mobile {
