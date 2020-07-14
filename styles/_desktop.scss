@@ -75,7 +75,7 @@
         flex-direction: row-reverse;
         justify-content: center;
         align-items: flex-start;
-        margin: 0 9.4375rem 8rem 9.4375rem;
+        margin: 0 9.4375rem 5rem 9.4375rem;
     }
 
     .headline-aboutUs {
@@ -251,7 +251,7 @@
         justify-content: center;
         align-items: center;
         padding: 0 1rem;
-        margin-top: -3rem; //-19.2rem old value
+        margin-top: -14rem; //-19.2rem old value
         margin-bottom: 0;
         flex: 1;
     }
@@ -320,7 +320,7 @@
 
     .main-text-h2 {
         font-size: 18.0833px;
-        margin-right: 9rem;
+        margin-right: 7rem;
         text-align: left;
     }
 
@@ -385,12 +385,11 @@
         position: absolute;
         margin-left: 7px;
         border-radius: 6px;
-        height: 120px;
-        width: 140px;
+        height: 40px;
+        width: 60px;
         color: #ffffff;
         background-color: #3b3b3b;
-        display: none;
-        z-index: 1;
+        display: block;
     }
 
     .locations-links {
@@ -405,7 +404,18 @@
 
     }
 
-    .locations-links:hover span {
+    .location-popup {
+        position: absolute;
+        margin-left: 7px;
+        border-radius: 6px;
+        height: 40px;
+        width: 60px;
+        color: #ffffff;
+        background-color: #3b3b3b;
+        display: none;
+    }
+
+    .locations-links:hover .location-popup {
         color: #ffffff;
         font-size: 1rem;
         line-height: 0.8;
