@@ -281,10 +281,10 @@
 
     .pricing-content-container-tablet {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: -9.6rem 9.4375rem 4rem 7.438rem;
+        margin: -9.6rem 9.4375rem 4rem 9.338rem;
     }
 
     .pricing-content {
@@ -385,8 +385,8 @@
         position: absolute;
         margin-left: 7px;
         border-radius: 6px;
-        height: 40px;
-        width: 60px;
+        height: 35px;
+        width: 5px;
         color: #ffffff;
         background-color: #3b3b3b;
         display: block;

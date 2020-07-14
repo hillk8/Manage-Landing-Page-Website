@@ -209,7 +209,7 @@
     }
 
     .about-hero {
-        margin-bottom: -3rem;
+        margin-bottom: -1rem;
     }
 
     .about-headline {
@@ -221,7 +221,7 @@
 
     .about-headline h2 {
         align-items: center;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .headline {
@@ -229,6 +229,7 @@
     }
 
     h1 {
+        font-size: 1.875rem;
         text-align: center;
     }
 
@@ -273,6 +274,18 @@
         margin-bottom: -0.25rem;
     }
 
+    .text-paragraph {
+        text-align: center;
+    }
+
+    .pricing-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .pricing-content-text {
+        text-align: left;
+    }
+
     .about-content {
         display: flex;
         flex-direction: column;
@@ -314,8 +327,8 @@
         position: absolute;
         margin-left: 7px;
         border-radius: 6px;
-        height: 40px;
-        width: 60px;
+        height: 35px;
+        width: 55px;
         color: #ffffff;
         background-color: #3b3b3b;
         display: block;
@@ -325,12 +338,6 @@
         text-decoration: none;
         color: #a6a6a6;
         font-size: 1.3rem;
-    
-        &:hover {
-            font-weight: 500;
-            color: #F25F3A;
-        }
-
     }
 
     .location-popup {
@@ -354,16 +361,12 @@
         padding: 0 10px 10px 10px;
         letter-spacing: 0;
         font-weight: 400;
-        display: inline-block;
+        display: none;
     }
 
     .headline-text {
         text-align: center;
         margin-right: 0;
-    }
-
-    .text-paragraph {
-        text-align: center;
     }
 
     .main-content {
@@ -375,7 +378,9 @@
     }
 
     .main-content-list h3 {
-        width: 100%;
+        margin-left: 4.1rem;
+        padding-right: 0.4rem;
+        text-align: start;
     }
 
     .main-content h2 {
@@ -386,6 +391,10 @@
 
     .main-text-h3 {
         margin: 0 1.2rem 3rem 1.2rem;
+    }
+
+    .reviews h2 {
+        font-size: 1.875rem;
     }
 
     .slider-img {
