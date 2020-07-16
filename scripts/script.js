@@ -10,7 +10,7 @@ const navSlide = () => {
         if(link.style.animation) {
           link.style.animation = ``;
         } else {
-          link.style.animation = `navLinkFade 0.5s ease forwards ${index / 6 + 0.2}s`;
+          link.style.animation = `navLinkFade 0.3s ease forwards ${index / 20 + 0.2}s`;
         }
       });
       burger.classList.toggle('toggle');

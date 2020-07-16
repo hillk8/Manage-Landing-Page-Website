@@ -40,7 +40,7 @@
         background-color: #ffffff;
         width: 80%;
         transform: translateY(-30rem);
-        transition: transform 0.4s ease-in;
+        transition: transform 0.3s ease-in;
     }
 
     .nav-links li {
@@ -208,6 +208,11 @@
         background-color: #ffffff;
     }
 
+    .careers-hero {
+        margin-top: 2rem;
+        margin-bottom: -1rem;
+    }
+
     .about-hero {
         margin-bottom: -1rem;
     }
@@ -279,7 +284,7 @@
     }
 
     .pricing-content h2 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 
     .pricing-content-text {
@@ -381,6 +386,10 @@
         margin-left: 4.1rem;
         padding-right: 0.4rem;
         text-align: start;
+    }
+
+    .main-content-h3-numbers {
+        padding: 0.2625rem 1.25rem;
     }
 
     .main-content h2 {
