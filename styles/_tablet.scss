@@ -296,6 +296,48 @@
         font-size: calc(28px + 9 * (100vw - 318px) / 1082);
     }
 
+    .careers-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+        margin-bottom: 0;
+        flex: 1;
+    }
+
+    .careers-content h2 {
+        font-size:  2rem;
+    }
+
+    .careers-benefits-h2 {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .careers-benefits {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 2.3rem 2rem 2.3rem;
+        line-height: 2;
+    }
+
+    .careers-list {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 0;
+        margin: 1rem 2rem;
+    }
+
+    .careers-links {
+        color: #a6a6a6;
+        font-size: 1.3rem;
+    }
+
     .pricing-content-container-tablet {
         display: flex;
         flex-direction: column;
