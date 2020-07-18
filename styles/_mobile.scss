@@ -222,11 +222,17 @@
 
     .about-hero {
         margin-bottom: -1rem;
+        margin-left: 1rem;
+        width: 100vw;
+    }
+
+    .hero {
+        width: 100vw;
     }
 
     .about-headline {
         align-items: center; 
-        margin-bottom: -2.25rem;
+        margin-bottom: -4.25rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -309,6 +315,20 @@
     }
 
     .about-content h2 {
+        font-size:  2rem;
+    }
+
+    .careers-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+        margin-bottom: 0;
+        flex: 1;
+    }
+
+    .careers-content h2 {
         font-size:  2rem;
     }
 

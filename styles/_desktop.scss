@@ -297,6 +297,20 @@
         font-size: 2.5rem;
     }
 
+    .careers-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+        margin-bottom: 0;
+        flex: 1;
+    }
+
+    .careers-content h2 {
+        font-size: 2.5rem;
+    }
+
     .pricing-content-container-tablet {
         display: flex;
         flex-direction: column;

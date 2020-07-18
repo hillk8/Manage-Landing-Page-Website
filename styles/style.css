@@ -801,12 +801,17 @@ footer {
   }
   .about-hero {
     margin-bottom: -1rem;
+    margin-left: 1rem;
+    width: 100vw;
+  }
+  .hero {
+    width: 100vw;
   }
   .about-headline {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: -2.25rem;
+    margin-bottom: -4.25rem;
     margin-left: 1rem;
     margin-right: 1rem;
   }
@@ -900,6 +905,29 @@ footer {
             flex: 1;
   }
   .about-content h2 {
+    font-size: 2rem;
+  }
+  .careers-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 1rem;
+    margin-bottom: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .careers-content h2 {
     font-size: 2rem;
   }
   .locations {
@@ -1111,6 +1139,22 @@ footer {
     list-style: none;
     padding-right: 1.5rem;
   }
+  .hero-headline-container-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 0 9.4375rem 5rem 9.4375rem;
+  }
   .headline-aboutUs {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1161,7 +1205,7 @@ footer {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    margin: 0 9.4375rem 3rem 9.4375rem;
+    margin: 0 9.4375rem 6rem 9.4375rem;
   }
   .careers-hero {
     display: -webkit-box;
@@ -1440,16 +1484,35 @@ footer {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    padding: 0 1rem;
-    margin-top: 2rem;
+    margin-left: 6rem;
     margin-bottom: 0;
-    margin-right: -1rem;
-    margin-left: 4rem;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
   }
   .about-content h2 {
+    font-size: calc(28px + 9 * (100vw - 318px) / 1082);
+  }
+  .careers-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .careers-content h2 {
     font-size: calc(28px + 9 * (100vw - 318px) / 1082);
   }
   .pricing-content-container-tablet {
@@ -2140,6 +2203,29 @@ footer {
             flex: 1;
   }
   .about-content h2 {
+    font-size: 2.5rem;
+  }
+  .careers-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 1rem;
+    margin-bottom: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .careers-content h2 {
     font-size: 2.5rem;
   }
   .pricing-content-container-tablet {
