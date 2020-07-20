@@ -6,24 +6,24 @@
     }
 
     .header-container {
-        display: flex;
-        flex-flow: row nowrap;
+        // display: flex;
+        // flex-flow: row nowrap;
         justify-content: space-between;
         align-items: center;
     }
 
-    .logo {
-        margin-top: 2.3rem;
-        margin-left: 0.4rem
-    }
+    // .logo {
+    //     margin-top: 2.3rem;
+    //     margin-left: 0.4rem
+    // }
 
-    nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        min-height: 8vh;
-        font-family: 'Open', sans-serif;
-    }
+    // nav {
+    //     display: flex;
+    //     justify-content: space-around;
+    //     align-items: center;
+    //     min-height: 8vh;
+    //     font-family: 'Open', sans-serif;
+    // }
 
     .nav-links {
         display: flex;
@@ -47,17 +47,17 @@
         opacity: 0;
     }
 
-    .nav-links a {
-        color: #000000;
-        text-decoration: none;
-        letter-spacing: 1px;
-        font-weight: bold;
-        font-size: 0.875rem;
-    }
+    // .nav-links a {
+    //     color: #000000;
+    //     text-decoration: none;
+    //     letter-spacing: 1px;
+    //     font-weight: bold;
+    //     font-size: 0.875rem;
+    // }
 
-    .nav-links li {
-        list-style: none;
-    }
+    // .nav-links li {
+    //     list-style: none;
+    // }
 
     .burger {
         display: block;
@@ -254,7 +254,7 @@
     .about-headline-text {
         text-align: center;
         margin-right: 0;
-        margin-bottom: 1.8rem;
+        // margin-bottom: 1.8rem;
     }
 
     .pricing-headline-text {
@@ -262,22 +262,22 @@
         margin-left: -1.125rem;
     }
 
-    .about-button {
-        font-size: 0.75rem;
-        font-weight: 700;
-        cursor: pointer;
-        color: #ffffff;
-        padding: 1rem 2.2rem;
-        margin-top: 1.5rem;
-        border-radius: 5rem;
-        border-style: none;
-        background-color: $brightRed;
-        box-shadow: 0px 22px 15px -19px #ff2b00;
+    // .about-button {
+    //     font-size: 0.75rem;
+    //     font-weight: 700;
+    //     cursor: pointer;
+    //     color: #ffffff;
+    //     padding: 1rem 2.2rem;
+    //     margin-top: 1.5rem;
+    //     border-radius: 5rem;
+    //     border-style: none;
+    //     background-color: $brightRed;
+    //     box-shadow: 0px 22px 15px -19px #ff2b00;
 
-        &:hover {
-            background-color: $paleRed;
-        }
-    }
+    //     &:hover {
+    //         background-color: $paleRed;
+    //     }
+    // }
 
     .pricing-graph-img {
         display: none;

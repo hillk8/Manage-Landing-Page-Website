@@ -45,7 +45,44 @@ ul {
 }
 
 .header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   margin: 0 0 3rem 0;
+}
+
+.logo {
+  margin-top: 2.3rem;
+  margin-left: 0.4rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 8vh;
+  font-family: 'Open', sans-serif;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 0.875rem;
 }
 
 .nav-links a:hover {
@@ -87,6 +124,25 @@ ul {
   font-size: 2.5rem;
 }
 
+.about-button {
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 1rem 2.2rem;
+  margin-top: 1.5rem;
+  border-radius: 5rem;
+  border-style: none;
+  background-color: #f25f3a;
+  -webkit-box-shadow: 0px 22px 15px -19px #ff2b00;
+          box-shadow: 0px 22px 15px -19px #ff2b00;
+}
+
+.about-button:hover {
+  background-color: #f99076;
+}
+
+/************ STOPPED HERE ****************************************/
 .headline {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -139,6 +195,10 @@ h1 {
   .text-paragraph {
     font-size: 19.0833px;
   }
+}
+
+.about-headline-text {
+  margin-bottom: 1.8rem;
 }
 
 .headline-text {
@@ -503,35 +563,12 @@ footer {
     display: none;
   }
   .header-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  .logo {
-    margin-top: 2.3rem;
-    margin-left: 0.4rem;
-  }
-  nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    min-height: 8vh;
-    font-family: 'Open', sans-serif;
   }
   .nav-links {
     display: -webkit-box;
@@ -563,16 +600,6 @@ footer {
   }
   .nav-links li {
     opacity: 0;
-  }
-  .nav-links a {
-    color: #000000;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 0.875rem;
-  }
-  .nav-links li {
-    list-style: none;
   }
   .burger {
     display: block;
@@ -833,27 +860,10 @@ footer {
   .about-headline-text {
     text-align: center;
     margin-right: 0;
-    margin-bottom: 1.8rem;
   }
   .pricing-headline-text {
     margin-top: 2rem;
     margin-left: -1.125rem;
-  }
-  .about-button {
-    font-size: 0.75rem;
-    font-weight: 700;
-    cursor: pointer;
-    color: #ffffff;
-    padding: 1rem 2.2rem;
-    margin-top: 1.5rem;
-    border-radius: 5rem;
-    border-style: none;
-    background-color: #f25f3a;
-    -webkit-box-shadow: 0px 22px 15px -19px #ff2b00;
-            box-shadow: 0px 22px 15px -19px #ff2b00;
-  }
-  .about-button:hover {
-    background-color: #f99076;
   }
   .pricing-graph-img {
     display: none;
@@ -1127,13 +1137,6 @@ footer {
     display: none;
   }
   .header-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     -webkit-box-align: center;
@@ -1141,43 +1144,17 @@ footer {
             align-items: center;
     padding: 48px 106px;
   }
-  nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    min-height: 8vh;
-    font-family: 'Open', sans-serif;
-  }
   .logo {
     margin-top: 1.1rem;
-    margin-left: 0.4rem;
   }
   .nav-links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     width: 100%;
     padding-left: 0;
   }
-  .nav-links a {
-    color: #000000;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 0.875rem;
-  }
   .nav-links li {
-    list-style: none;
     padding-right: 1.5rem;
   }
   .hero-headline-container-desktop {
@@ -1393,22 +1370,6 @@ footer {
         -ms-flex-align: center;
             align-items: center;
   }
-  .about-button {
-    font-size: 0.75rem;
-    font-weight: 700;
-    cursor: pointer;
-    color: #ffffff;
-    padding: 1rem 2.2rem;
-    margin-top: 1.5rem;
-    border-radius: 5rem;
-    border-style: none;
-    background-color: #f25f3a;
-    -webkit-box-shadow: 0px 22px 15px -19px #ff2b00;
-            box-shadow: 0px 22px 15px -19px #ff2b00;
-  }
-  .about-button:hover {
-    background-color: #f99076;
-  }
   .pricing-graph-img {
     -webkit-box-flex: 1;
         -ms-flex: 1;
@@ -1420,18 +1381,9 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    padding: 0 1rem 6.5rem 1rem;
-    margin-bottom: -0.25rem;
     margin-top: 1.2rem;
     -webkit-box-flex: 1;
         -ms-flex: 1;
@@ -1445,7 +1397,6 @@ footer {
   }
   .about-headline-text {
     text-align: left;
-    margin-bottom: 1.8rem;
   }
   .pricing-headline-text {
     margin-top: 1rem;
@@ -1890,13 +1841,6 @@ footer {
     background-position: top 550px right -400px, top 300px left -300px;
   }
   .header-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     -webkit-box-align: center;
@@ -1915,47 +1859,23 @@ footer {
     -webkit-box-shadow: 0px 4px 18px -10px rgba(0, 0, 0, 0.4);
             box-shadow: 0px 4px 18px -10px rgba(0, 0, 0, 0.4);
   }
-  nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    min-height: 8vh;
-    font-family: 'Open', sans-serif;
-    z-index: 1;
-    position: fixed;
-  }
   .logo {
-    margin-top: 1.1rem;
     margin-left: -1.6rem;
     position: fixed;
     left: 194px;
+  }
+  nav {
+    z-index: 1;
+    position: fixed;
   }
   .nav-links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     width: 100%;
     padding-left: 0;
   }
-  .nav-links a {
-    color: #000000;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 0.875rem;
-  }
   .nav-links li {
-    list-style: none;
     padding-right: 1.5rem;
   }
   .button-fixed {
@@ -2152,18 +2072,9 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    padding: 0 1rem 6.5rem 1rem;
-    margin-bottom: -0.25rem;
     margin-top: 14rem;
     -webkit-box-flex: 1;
         -ms-flex: 1;
@@ -2198,23 +2109,6 @@ footer {
   }
   .about-headline-text {
     text-align: left;
-    margin-bottom: 1.8rem;
-  }
-  .about-button {
-    font-size: 0.75rem;
-    font-weight: 700;
-    cursor: pointer;
-    color: #ffffff;
-    padding: 1rem 2.2rem;
-    margin-top: 1.5rem;
-    border-radius: 5rem;
-    border-style: none;
-    background-color: #f25f3a;
-    -webkit-box-shadow: 0px 22px 15px -19px #ff2b00;
-            box-shadow: 0px 22px 15px -19px #ff2b00;
-  }
-  .about-button:hover {
-    background-color: #f99076;
   }
   .pricing-graph-img {
     -webkit-box-flex: 1;

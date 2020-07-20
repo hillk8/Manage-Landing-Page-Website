@@ -20,7 +20,34 @@
 }
 
 .header-container {
+    display: flex;//added
+    flex-flow: row nowrap;//added
     margin: 0 0 3rem 0;
+}
+
+.logo {
+    margin-top: 2.3rem;
+    margin-left: 0.4rem
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Open', sans-serif;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 0.875rem;
 }
 
 .nav-links a:hover {
@@ -43,6 +70,25 @@
     font-size: 2.5rem;
 }
 
+.about-button {
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 1rem 2.2rem;
+    margin-top: 1.5rem;
+    border-radius: 5rem;
+    border-style: none;
+    background-color: $brightRed;
+    box-shadow: 0px 22px 15px -19px #ff2b00;
+
+    &:hover {
+        background-color: $paleRed;
+    }
+}
+
+/************ STOPPED HERE ****************************************/
+
 .headline {
     display: flex;
     flex-direction: column;
@@ -64,6 +110,10 @@ h1 {
     line-height: 1.75rem;
     margin-top: 0.9rem;
     margin-bottom: 0.9rem;
+}
+
+.about-headline-text {
+    margin-bottom:  1.8rem;
 }
 
 .headline-text {
