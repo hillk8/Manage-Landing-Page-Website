@@ -142,7 +142,6 @@ nav {
   background-color: #f99076;
 }
 
-/************ STOPPED HERE ****************************************/
 .headline {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2086,6 +2085,30 @@ footer {
   h1 {
     text-align: left;
   }
+  .pricing-headline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0 1rem 0 1rem;
+    margin-bottom: -0.25rem;
+    margin-top: 4rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .pricing-headline h2 {
+    font-size: 2.5rem;
+  }
   .about-headline {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2109,6 +2132,10 @@ footer {
   }
   .about-headline-text {
     text-align: left;
+  }
+  .pricing-headline-text {
+    text-align: left;
+    margin-bottom: 1.8rem;
   }
   .pricing-graph-img {
     -webkit-box-flex: 1;
