@@ -105,6 +105,25 @@ nav {
   }
 }
 
+.privacy-headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 1rem 6.5rem 1rem;
+  margin-bottom: -0.25rem;
+}
+
+.privacy-headline h2 {
+  font-size: 2.5rem;
+}
+
 .about-headline {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -833,6 +852,48 @@ footer {
   .hero {
     width: 100vw;
   }
+  .privacy-headline {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: -4.25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .privacy-headline h2 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.8rem;
+  }
+  .privacy-statement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 1rem 0 1rem;
+    margin-bottom: 2rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .privacy-statement h2 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .privacy-statement-text {
+    font-size: 1rem;
+    text-align: left;
+  }
   .about-headline {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -1187,7 +1248,7 @@ footer {
         -ms-flex-align: center;
             align-items: center;
     margin-top: -5.5rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2.5rem;
     padding-top: 3rem;
   }
   .headline-pricing {
@@ -1204,8 +1265,8 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: -5.5rem;
-    margin-bottom: -2rem;
+    margin-top: -4.5rem;
+    margin-bottom: 3.5rmrem;
     padding-top: 3rem;
   }
   .careers-headline-container-desktop {
@@ -1303,7 +1364,7 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
     padding: 0 1rem 6.5rem 4rem;
-    margin: 7.5rem -0.75rem 6rem 2rem;
+    margin: 5.5rem -0.75rem 6rem 2rem;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
@@ -1342,6 +1403,56 @@ footer {
 }
 
 @media screen and (min-width: 1090px) and (max-width: 1261px) {
+  .privacy-headline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0 1rem 0 1rem;
+    margin: 2rem 9.4375rem 2rem 9.4375rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .privacy-headline-text {
+    text-align: left;
+  }
+  .privacy-statement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 1rem 0 1rem;
+    margin: 2rem 9.4375rem 2rem 9.4375rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .privacy-statement h2 {
+    font-size: 1.6rem;
+  }
+  .privacy-statement-text {
+    font-size: 1.3rem;
+    text-align: left;
+  }
   .about-headline {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1362,6 +1473,12 @@ footer {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+  }
+  .privacy-headline h2 {
+    font-size: calc(28px + 9 * (100vw - 318px) / 1082);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .about-headline h2 {
     font-size: calc(28px + 9 * (100vw - 318px) / 1082);
@@ -1396,6 +1513,27 @@ footer {
   }
   .about-headline-text {
     text-align: left;
+  }
+  .pricing-headline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0 1rem 0 1rem;
+    margin-bottom: -0.25rem;
+    margin-top: 2rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
   }
   .pricing-headline-text {
     margin-top: 1rem;
@@ -1911,8 +2049,7 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: -5.5rem;
-    margin-bottom: 3.5rem;
+    margin-top: 5.5rem;
     padding-top: 3rem;
   }
   .careers-headline-container-desktop {
@@ -2109,6 +2246,56 @@ footer {
   .pricing-headline h2 {
     font-size: 2.5rem;
   }
+  .privacy-headline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0 1rem 0 1rem;
+    margin: 2rem 9.4375rem 2rem 9.4375rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .privacy-headline-text {
+    text-align: left;
+  }
+  .privacy-statement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 1rem 0 1rem;
+    margin: 2rem 9.4375rem 2rem 9.4375rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .privacy-statement h2 {
+    font-size: 2rem;
+  }
+  .privacy-statement-text {
+    font-size: 1.5rem;
+    text-align: left;
+  }
   .about-headline {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2203,6 +2390,22 @@ footer {
         -ms-flex-align: center;
             align-items: center;
     margin: -9.6rem 9.4375rem 5rem 9.4375rem;
+  }
+  .privacy-content-container-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 9.4375rem 5rem 9.4375rem;
   }
   .about-content {
     display: -webkit-box;

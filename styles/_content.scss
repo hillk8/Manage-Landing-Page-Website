@@ -58,6 +58,18 @@ nav {
     @include fluid-type(width, 318px, 1200px, 311px, 740px);
 }
 
+.privacy-headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem 6.5rem 1rem;
+    margin-bottom: -0.25rem;
+}
+
+.privacy-headline h2 {
+    font-size: 2.5rem;
+}
+
 .about-headline {
     display: flex;
     flex-direction: column;
