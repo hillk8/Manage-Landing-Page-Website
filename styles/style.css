@@ -2293,8 +2293,63 @@ footer {
     font-size: 2rem;
   }
   .privacy-statement-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     font-size: 1.5rem;
     text-align: left;
+  }
+  .privacy-hipaa-questions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 2.3rem 2rem 2.3rem;
+    line-height: 2.6;
+  }
+  .privacy-hipaa-questions ul li {
+    background: url(/images/bullet-bg.jpg) 0 6px no-repeat;
+    background-size: 10px 14px;
+    font-size: 1.05rem;
+    line-height: 1.4rem;
+    list-style: none;
+    margin-bottom: .6rem;
+    margin-left: 0;
+    padding-left: 20px;
+  }
+  .privacy-hippa-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding-left: 0;
+    margin: 1rem 2rem;
+  }
+  .privacy-hippa-links {
+    text-align: left;
+    color: #a6a6a6;
+    font-size: 1.3rem;
   }
   .about-headline {
     display: -webkit-box;
